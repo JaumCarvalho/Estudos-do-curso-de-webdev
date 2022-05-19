@@ -25,3 +25,47 @@ body{
     background: url(../imagens/logo.png) no-repeat center;
     text-indent: -3000px;
 }
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#header ul{
+    margin-top: 30px;
+    background-color: #b10333;
+    float: left;
+}
+
+#header ul li{
+    float: left;
+}
+
+#header ul a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+#header ul .primeiro a{
+    background: none;
+}
+
+#header ul a:hover{
+    color: #69001d;
+}
+
+body.home #nav a#home,
+body.brasil #nav a#brasil,
+body.internacional #nav a#internacional,
+body.fotos #nav a#fotos
+{
+    color: #fff;
+    background-color: #de003e;
+    cursor: text;
+}
